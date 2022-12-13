@@ -1,12 +1,12 @@
 #define DEBUG // Please comment it if you are not debugging
-String FWversion = "Fik7a_1024_v0"; // Output data format
+String FWversion = "Fik8a_1024_v0"; // Output data format
 
 #define RANGE 1023   // histogram range
 #define NOISE  7    // first channel for reporting flux to IoT
 #define EVENTS 500 // maximal number of recorded events
 #define GPSerror 700000 // number of cycles for waitig for GPS in case of GPS error 
 #define MSG_NO 20 // number of recorded NMEA messages
-#define GPSdelay  3   // number of measurements between obtaining GPS position
+#define GPSdelay  6   // number of measurements between obtaining GPS position
 #define TELEMETRYdelay  3   // number of measurements between obtaining GPS position
 //#define GPSdelay 346   // number of measurements between obtaining GPS position and sending telemetry
                        // 346 = cca 1 h
