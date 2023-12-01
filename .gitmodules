@@ -1,0 +1,6 @@
+[submodule "hw/LoRa_QFH"]
+	path = hw/LoRa_QFH
+	url = git@github.com:ThunderFly-aerospace/TFQFHANT01.git
+[submodule "hw/SiK_QFH"]
+	path = hw/SiK_QFH
+	url = git@github.com:ThunderFly-aerospace/TFQFHANT01.git
